@@ -1,0 +1,95 @@
+body {
+    background-color: #222D39;
+    color: #E5CC94;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    max-width: 600px;
+    width: 100%; /* Full width */
+    padding: 20px; /* Padding for container */
+}
+
+h1 {
+    font-size: 3rem; /* Larger font size for title */
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2.5rem; /* Larger font size for section headings */
+    margin: 20px 0;
+}
+
+.tabs {
+    margin: 30px 0; /* Increased space between heading and buttons */
+}
+
+.tab {
+    padding: 15px 30px; /* Larger padding */
+    font-size: 1.5rem; /* Larger font size for buttons */
+    cursor: pointer;
+    background-color: #A28CD8; /* Light shade of purple */
+    border: none;
+    color: #222D39;
+    margin: 0 5px;
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.1s, background-color 0.3s; /* Smooth transition */
+}
+
+.tab:hover {
+    background-color: #9173b5; /* Slightly darker on hover */
+}
+
+.tab:active {
+    transform: scale(0.95); /* Scale down on click */
+}
+
+.section {
+    margin: 30px 0;
+}
+
+.math-question {
+    font-size: 3rem; /* Increased size for math questions */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+input {
+    padding: 15px; /* Larger padding */
+    margin: 10px 0;
+    font-size: 1.5rem; /* Larger font size for input */
+    border-radius: 5px; /* Rounded corners for input */
+    border: 1px solid #E5CC94;
+    background-color: #333a47; /* Background for input */
+    color: #E5CC94; /* Text color for input */
+    width: 80%; /* Adjust width */
+}
+
+button {
+    padding: 15px 30px; /* Larger padding */
+    font-size: 1.5rem; /* Larger font size for buttons */
+    cursor: pointer;
+    background-color: #A28CD8; /* Light shade of purple */
+    border: none;
+    color: #222D39;
+    border-radius: 15px; /* Rounded corners */
+    transition: transform 0.1s, background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #9173b5; /* Slightly darker purple on hover */
+}
+
+button:active {
+    transform: scale(0.95); /* Scale down on click */
+}
+
+#simpleFeedback, #mediumFeedback, #advancedFeedback {
+    font-size: 1.5rem; /* Larger font size for feedback */
+    font-weight: bold;
+}

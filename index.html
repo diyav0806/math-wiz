@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Math Wiz</title>
+</head>
+<body>
+    <div class="container">
+        <h1><h1>🧙‍♂️ EnAbled MATH WIZ! 🧙‍♀️</h1>
+
+        <div class="tabs">
+            <button class="tab" onclick="showSection('simple')">Simple</button>
+            <button class="tab" onclick="showSection('medium')">Medium</button>
+            <button class="tab" onclick="showSection('advanced')">Advanced</button>
+        </div>
+        <div class="section" id="simple" class="active">
+            <h2>Simple</h2>
+            <div id="simpleProblem"></div>
+            <input type="number" id="simpleAnswer" placeholder="Your Answer">
+            <button onclick="checkSimple()">Submit</button>
+            <div id="simpleFeedback"></div>
+        </div>
+        <div class="section" id="medium" style="display:none;">
+            <h2>Medium</h2>
+            <div id="mediumProblem"></div>
+            <input type="number" id="mediumAnswer" placeholder="Your Answer">
+            <button onclick="checkMedium()">Submit</button>
+            <div id="mediumFeedback"></div>
+        </div>
+        <div class="section" id="advanced" style="display:none;">
+            <h2>Advanced</h2>
+            <div id="advancedProblem"></div>
+            <input type="number" id="advancedAnswer" placeholder="Your Answer">
+            <button onclick="checkAdvanced()">Submit</button>
+            <div id="advancedFeedback"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
